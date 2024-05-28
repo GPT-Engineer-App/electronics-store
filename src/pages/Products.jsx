@@ -24,11 +24,11 @@ const products = [
   },
 ];
 
-const Index = () => {
+const Products = () => {
   return (
     <Container maxW="container.xl" py={8}>
       <Heading as="h1" size="2xl" mb={8} textAlign="center">
-        Welcome to E-Shop
+        Our Products
       </Heading>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
         {products.map((product) => (
@@ -50,4 +50,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Products;
